@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+}
+
+:root {
+  --font: 'lato' sans-serif;
+  --mainColor: rgb(239, 79, 15);
+}
+
+.mainnav-link:hover {
+  color: var(--mainColor) !important;
+}
+
+.nav-sub {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.nav-ul {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  list-style: none;
+  color: var(--mainColor);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(0, 0, 10, 0.6);
+  z-index: 999;
+  top: 0;
+  margin: 0;
+  left: 0;
+}
+
+.item {
+  color: var(--mainColor);
+  font-family: var(--font);
+  font-weight: 700;
+  width: 90%;
+  height: 10vh;
+  margin: 2rem 0;
+  line-height: 3rem;
+  font-size: xx-large;
+
+  /* margin: 2rem; */
+  padding: 0.8rem 0;
+  align-items: center;
+  text-align: center;
+}
+
+.item:hover {
+  color: aliceblue;
+  transform: translateX(5%);
+  transform: translateY(5%);
+  transition: 6ms;
+  border: 1px solid var(--mainColor);
+  background-color: rgb(61, 61, 61);
+}
+
+.hambur {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: 14vh;
+  top: 0;
+  z-index: 999;
+  position: absolute;
+  cursor: pointer;
+}
+
+.hambur.active div:nth-child(2) {
+  opacity: 0;
+}
+
+.hambur.active div:nth-child(1) {
+  transform: translateY(8px)  rotate(45deg);
+  background-color: #46413f;
+  height: 3px;
+}
+
+.hambur.active div:nth-child(3) {
+  transform: translateY(-8px)  rotate(-45deg);
+  background-color: #46413f;
+  height: 3px;
+}
+
+a:hover {
+  color: var(--mainColor);
+  transform: translateX(10%);
+  transform: translateY(10%);
+  transition: 1s;
+}
+
+.lin {
+  width: 1.7rem;
+  height: 4px;
+  background-color: rgb(61, 61, 61);
+  font-weight: 700;
+  margin: 2px;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/women-in-tech.jpg);
+}
+
+.img-cover {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-navbar {
+  display: block !important;
+}
+
+.headline {
+  border: 2px solid var(--mainColor);
+
+  /* border-top: none; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50% !important;
+}
+
+.sep {
+  height: 1px;
+  justify-content: center;
+  width: 90%;
+  background-color: var(--mainColor);
+}
+
+.headtext {
+  color: rgb(224, 218, 218);
+}
+
+.learn {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgb(13, 110, 253);
+  border-radius: 0.5rem;
+}
+
+.theme {
+  color: var(--mainColor);
+}
+
+.program {
+  background-image: url(./images/program\ image.jpg);
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.program-logo {
+  font-weight: 600;
+  color: aliceblue;
+  height: 15vh;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.pro-topic {
+  color: var(--mainColor);
+  font-family: var(--font);
+  text-align: center;
+}
+
+.main-bar,
+.nav-brand {
+  display: none;
+}
+
+.program-item {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+}
+
+.underprogram {
+  width: 10vw;
+  height: 1px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--mainColor);
+}
+
+.img-speaker {
+  width: 80%;
+  height: 40vh;
+  z-index: 4;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.design {
+  width: 80%;
+  height: 40vh;
+  position: absolute;
+}
+
+.design img {
+  width: 100%;
+  height: 100%;
+}
+
+.speaker1-pic {
+  height: 70vh;
+  width: 60%;
+  position: relative;
+}
+
+.featured {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  gap: 1rem;
+}
+
+.speaker1-items {
+  width: 50%;
+}
+
+.speaker-profe {
+  color: var(--mainColor);
+  font-style: italic;
+}
+
+.partner-img {
+  width: 100%;
+  height: 30vh;
+}
+
+.partner-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.partners {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tech-w {
+  width: 30%;
+}
+
+.tech-w a {
+  width: 100%;
+
+  /* border: 2px solid var(--mainColor); */
+}
+
+.heade {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/backgroundpattern4.jpg);
+}
+
+.img-cove {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.wo-mission {
+  border: 2px solid rgb(247, 247, 248);
+  width: 85% !important;
+}
+
+.virtual1 {
+  position: relative;
+  width: 47%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/imgvirtual1.webp);
+}
+
+.virtual2 {
+  position: relative;
+  width: 47%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/imgvirtual2.png);
+}
+
+.vir-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.vir-cover a {
+  text-decoration: none;
+  height: 100%;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.vir-cover a:hover {
+  color: var(--mainColor);
+}
+
+.nav2 {
+  display: block;
+  text-decoration: none;
+  border: 3px var(--mainColor) solid;
+  color: rgb(61, 61, 61);
+  font-family: var(--font);
+}
+
+@media screen and (min-width: 768px) {
+  .hambur {
+    display: none !important;
+  }
+
+  .nav-ul {
+    display: flex !important;
+    flex-direction: row;
+    width: 80%;
+    height: 10vh;
+    padding: 0 1rem;
+    position: inherit;
+    list-style: none;
+    color: var(--mainColor);
+    left: 0;
+    top: 0;
+    background-color: transparent;
+  }
+
+  .item {
+    color: var(--mainColor);
+    font-family: var(--font);
+    display: block;
+    align-items: center;
+    width: 20%;
+    font-size: larger;
+    justify-content: center;
+  }
+
+  .main-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    display: flex;
+
+    /* margin-bottom: 5rem; */
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .nav-sub {
+    position: absolute;
+    top: 2rem;
+  }
+
+  .nav-brand {
+    text-decoration: none;
+    border: 3px var(--mainColor) solid;
+    color: rgb(61, 61, 61);
+    font-family: var(--font);
+    display: block;
+  }
+}
