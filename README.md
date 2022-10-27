@@ -16,18 +16,33 @@
 ## Live Demo (if available)
 
 [Live Demo Link](https://tessyrich.github.io/Capstone-Project-Main/)
+[Video](https://www.loom.com/share/62794aa4392e4768aacebcb66c723204)
 
 
 ## Getting Started
 
-To get a local copy up, CD into the project folder and run:
-"""
-npm install
-"""
-
-
 To get a local copy up and running follow these simple example steps.
 
+### Prerequisites
+- Download Visual Studio Code.
+- Download Git.
+
+### Install
+
+1. Clone the repo
+```sh
+   git clone https://github.com/Tessyrich/Capstone-Project-Main.git
+```
+2. Install NPM packages
+```sh
+   npm install
+```
+
+### Run tests
+ ```sh
+    - Open it by live server in the VScode.
+    - Check for the linters
+ ```
 
 
 ### Deployment
@@ -36,15 +51,16 @@ Deployed using GitHub
 
 👤 **Author**
 
+** Oluchi Theresa Ogbonna **
+
 - GitHub: [@githubhandle](https://github.com/Tessyrich)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluchi-theresa-55b512220)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]([../../issues/])
+Feel free to check the [issues page](https://github.com/Tessyrich/Capstone-Project-Main/issues)
 
 ## Show your support
 
