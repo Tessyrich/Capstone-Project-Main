@@ -67,8 +67,8 @@ FeaturedSpeaker.forEach((pro) => {
   const speaker = `
     <div class="speaker1 d-flex">
     <div class="speaker1-pic">
-      <div class="design"> <img src=${pro.SpeakerDesign} alt=""></div>
-      <div class="img-speaker"><img src=${pro.Speaker1img} alt="" class="image"></div>
+      <div class="design"> <img src=${pro.SpeakerDesign} alt="Background image design"></div>
+      <div class="img-speaker"><img src=${pro.Speaker1img} alt="Speaker Image" class="image"></div>
     </div>
     <div class="speaker1-items">
       <div class="speaker-nam h5">${pro.speakername}</div>

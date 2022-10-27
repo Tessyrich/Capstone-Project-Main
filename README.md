@@ -2,7 +2,7 @@
 
 # Capstone project: Entrepreneurs Forum Summit landing page
 
-> Description the project.
+> This is a conference/summit website for women in tech virtual conference, created as the first capstone projetct for Microverse Web Development.
 
 
 ## Built With

@@ -50,8 +50,6 @@ body {
   margin: 2rem 0;
   line-height: 3rem;
   font-size: xx-large;
-
-  /* margin: 2rem; */
   padding: 0.8rem 0;
   align-items: center;
   text-align: center;
@@ -135,7 +133,6 @@ a:hover {
 }
 
 .headline {
-  /* border-top: none; */
   align-items: center;
   justify-content: center;
   width: 80% !important;
@@ -165,11 +162,9 @@ a:hover {
 }
 
 .program {
-  background-image: url(./images/program\ image.jpg);
   position: relative;
   width: 100%;
-  background-position: center;
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 1) !important;
 }
 
 .program-logo {
@@ -271,8 +266,6 @@ a:hover {
 
 .tech-w a {
   width: 100%;
-
-  /* border: 2px solid var(--mainColor); */
 }
 
 .heade {
@@ -396,8 +389,6 @@ a:hover {
     top: 0;
     z-index: 999;
     display: flex;
-
-    /* margin-bottom: 5rem; */
   }
 
   .main-nav {
