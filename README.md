@@ -87,6 +87,7 @@
 > 
 
 - [Live Demo Link](https://tessyrich.github.io/Capstone-Project-Main/)
+- [live video link](https://www.loom.com/share/62794aa4392e4768aacebcb66c723204)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
